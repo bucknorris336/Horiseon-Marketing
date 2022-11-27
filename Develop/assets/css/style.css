@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* raised font family up to body level wsince it was shared by many classes */
+body {
+  background-color: #d9dcd6;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+/* changed title to header tag and gave it a class of title */
+.title {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.title-gray {
+  color: #d9dcd6;
+}
+/* changed div to nav tag to be more symantic and gave a class of main nav */
+.main-nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 20px;
+}
+/* get rid of bullet points */
+.nav-links-list {
+  list-style-type: none;
+}
+/* gave all of the list items class of nav link tag to style all of them */
+.nav-link-wrapper {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+/* changed div to main tag to denote thats where the main content lives */
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+/* changed these divs into articles and unified them into one generic class */
+.blog-post {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.blog-post img {
+  max-height: 200px;
+}
+/* changed into aside tag */
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  background-color: #2589bd;
+}
+/* changed divs into section tags */
+.aside-blurb {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.aside-blurb img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
